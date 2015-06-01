@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cJSON">
+      <UniqueIdentifier>{00df7108-3fc8-4b12-8dd1-d28247a1e47a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cURL">
+      <UniqueIdentifier>{8aa6ea60-b382-4bdd-966c-c0405adaf210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="action">
+      <UniqueIdentifier>{11aaaaef-1c0c-4a6c-beb2-4bfca9d6ab65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="leanplumWSDK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cJSON\cJSON.h">
+      <Filter>cJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="cURL\include\curl.h">
+      <Filter>cURL</Filter>
+    </ClInclude>
+    <ClInclude Include="cURL\cURLClient.h">
+      <Filter>cURL</Filter>
+    </ClInclude>
+    <ClInclude Include="IleanplumWSDK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="action\ActionList.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\BaseAction.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\GetVarsAction.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\SetVarsAction.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\StartAction.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\StopAction.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="action\TrackAction.h">
+      <Filter>action</Filter>
+    </ClInclude>
+    <ClInclude Include="leanplumWSDKDefine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="action\SetUserAttributesAction.h">
+      <Filter>action</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="leanplumWSDK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="action\BaseAction.cpp">
+      <Filter>action</Filter>
+    </ClCompile>
+    <ClCompile Include="action\GetVarsAction.cpp">
+      <Filter>action</Filter>
+    </ClCompile>
+    <ClCompile Include="action\SetVarsAction.cpp">
+      <Filter>action</Filter>
+    </ClCompile>
+    <ClCompile Include="action\StartAction.cpp">
+      <Filter>action</Filter>
+    </ClCompile>
+    <ClCompile Include="action\StopAction.cpp">
+      <Filter>action</Filter>
+    </ClCompile>
+    <ClCompile Include="action\TrackAction.cpp">
+      <Filter>action</Filter>
+    </ClCompile>
+    <ClCompile Include="cJSON\cJSON.c">
+      <Filter>cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="action\SetUserAttributesAction.cpp">
+      <Filter>action</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
