@@ -67,3 +67,8 @@ void CGetVarsAction::GetVars(std::vector<leanplumVar>& varList)
 {
 	varList = m_varList;
 }
+
+void* CGetVarsAction::GetResult()
+{
+	return (void*)&m_varList;
+}

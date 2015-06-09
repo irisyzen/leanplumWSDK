@@ -23,6 +23,7 @@ public:
 	std::string GetLastErrMsg() { return m_lastErrMsg; }
 
 	virtual bool ParseResponse(cJSON* jRoot) = 0;
+	virtual void* GetResult() { return NULL; }
 
 protected:
 	std::string TransVarsToJsonFormat(const std::vector<leanplumVar>& varList);

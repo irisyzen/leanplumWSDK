@@ -11,6 +11,8 @@ public:
 	bool ParseResponse(cJSON* jResponse);
 	void GetVars(std::vector<leanplumVar>& varList);
 
+	void* GetResult();
+
 private:
 	std::vector<leanplumVar> m_varList;
 };
