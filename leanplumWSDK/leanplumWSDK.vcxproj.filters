@@ -13,14 +13,17 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="cJSON">
-      <UniqueIdentifier>{00df7108-3fc8-4b12-8dd1-d28247a1e47a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="cURL">
-      <UniqueIdentifier>{8aa6ea60-b382-4bdd-966c-c0405adaf210}</UniqueIdentifier>
-    </Filter>
     <Filter Include="action">
       <UniqueIdentifier>{11aaaaef-1c0c-4a6c-beb2-4bfca9d6ab65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{84dfe58d-c730-4236-acce-d92717eeb8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\cJSON">
+      <UniqueIdentifier>{3d38dbb4-1b0d-476d-85ba-dc35c5d56cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\cURL">
+      <UniqueIdentifier>{1bd52ae4-c919-4042-ba5a-476ee9d926da}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -35,15 +38,6 @@
     </ClInclude>
     <ClInclude Include="leanplumWSDK.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="cJSON\cJSON.h">
-      <Filter>cJSON</Filter>
-    </ClInclude>
-    <ClInclude Include="cURL\include\curl.h">
-      <Filter>cURL</Filter>
-    </ClInclude>
-    <ClInclude Include="cURL\cURLClient.h">
-      <Filter>cURL</Filter>
     </ClInclude>
     <ClInclude Include="IleanplumWSDK.h">
       <Filter>Header Files</Filter>
@@ -75,6 +69,18 @@
     <ClInclude Include="action\SetUserAttributesAction.h">
       <Filter>action</Filter>
     </ClInclude>
+    <ClInclude Include="util\CommandHandler.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\cJSON\cJSON.h">
+      <Filter>util\cJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="util\cURL\cURLClient.h">
+      <Filter>util\cURL</Filter>
+    </ClInclude>
+    <ClInclude Include="util\cURL\include\curl.h">
+      <Filter>util\cURL</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -104,11 +110,14 @@
     <ClCompile Include="action\TrackAction.cpp">
       <Filter>action</Filter>
     </ClCompile>
-    <ClCompile Include="cJSON\cJSON.c">
-      <Filter>cJSON</Filter>
-    </ClCompile>
     <ClCompile Include="action\SetUserAttributesAction.cpp">
       <Filter>action</Filter>
+    </ClCompile>
+    <ClCompile Include="util\CommandHandler.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\cJSON\cJSON.c">
+      <Filter>util\cJSON</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
